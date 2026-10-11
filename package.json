@@ -1,0 +1,17 @@
+{
+  "name": "vulnerable-app-educativa",
+  "version": "1.0.0",
+  "description": "Aplicación vulnerable para fines educativos de seguridad",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6",
+    "express-session": "^1.17.3"
+  },
+  "allowScripts": {
+    "sqlite3@5.1.7": true
+  }
+}
